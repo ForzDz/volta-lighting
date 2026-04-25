@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <rect width="40" height="40" x="0" y="4" rx="10" fill="#F5C518"/>
+  <path d="M22 9L13 22h8l-3 11 13-14h-8l2-10z" fill="#050505"/>
+  <text x="52" y="32" font-family="serif" font-size="22" font-weight="400" fill="#FAFAFA">Volta</text>
+  <text x="104" y="32" font-family="serif" font-size="22" font-weight="300" fill="#F5C518"> &amp; Lighting</text>
+</svg>

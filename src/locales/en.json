@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Free Quote"
+  },
+  "hero": {
+    "badge": "LIGHTING STUDY AND DESIGN",
+    "title_1": "The lighting that",
+    "title_highlight": "transforms",
+    "title_2": "your spaces.",
+    "subtitle": "Lighting study and design, photometric study, custom 3D simulation... Every space: apartment, villa, hotel, office, residence, restaurant...",
+    "cta_primary": "Request a Quote →",
+    "cta_secondary": "Our Services",
+    "trust_1": "Algeria & International",
+    "trust_2": "250+ Projects Delivered",
+    "trust_3": "7+ years of experience",
+    "card_tag": "3D SIMULATION",
+    "card_title": "From idea to light.",
+    "card_subtitle": "From photometric study to the final render."
+  },
+  "about": {
+    "label": "ABOUT US",
+    "title": "Lighting is our craft, comfort is our signature.",
+    "body": "At Volta & Lighting, we believe lighting isn't a detail — it's the soul of a space. Every project starts with a rigorous study: usage analysis, photometric calculations, color temperature and CRI selection. We deliver precise plans, realistic 3D simulations and full support through commissioning.",
+    "stats": {
+      "projects_count": "250+",
+      "projects_label": "Projects Completed",
+      "community_count": "150K+",
+      "community_label": "Social Community",
+      "wilayas_count": "58",
+      "wilayas_label": "Wilayas Covered",
+      "experience_count": "7+ Years",
+      "experience_label": "Of Expertise"
+    }
+  },
+  "services": {
+    "label": "OUR SERVICES",
+    "title": "Our Services",
+    "subtitle": "Full expertise, from study to delivery.",
+    "learn_more": "Learn more →",
+    "items": [
+      {
+        "id": "photometrie",
+        "title": "Photometric Study",
+        "description": "Precise calculations of illuminance levels (lux), uniformity, glare (UGR) — compliant with EN 12464 standards. Every space receives exactly the light it deserves."
+      },
+      {
+        "id": "autocad",
+        "title": "AutoCAD Lighting Plans",
+        "description": "Detailed technical drawings in AutoCAD format: luminaire placement, circuits, dimensions. Clear documents ready for use by your electricians."
+      },
+      {
+        "id": "simulation",
+        "title": "3D Simulation & Renders",
+        "description": "Visualize your project before construction. Photorealistic DIALux / Relux renders with light level mapping — what you see is what you'll get."
+      },
+      {
+        "id": "conseil",
+        "title": "Consulting & Support",
+        "description": "Color temperature selection (2700K–4000K), rendering indices (CRI ≥ 90), luminaire curation. We support you at every step, through final on-site tuning."
+      }
+    ]
+  },
+  "why": {
+    "label": "WHY LIGHTING MATTERS",
+    "title": "More than ambiance — a business lever.",
+    "subtitle": "Lighting directly impacts your revenue, client wellbeing and operating costs. The numbers speak.",
+    "resto_label": "RESTAURANTS",
+    "resto_title": "+22% longer table dwell time with warm lighting.",
+    "resto_stat1": "+22% dwell time",
+    "resto_stat2": "+39% average ticket",
+    "resto_stat3": "3x likelihood of ordering dessert",
+    "resto_source": "Industry studies — hospitality",
+    "bureau_label": "OFFICES",
+    "bureau_title": "+42% cognitive performance with well-designed light.",
+    "bureau_stat1": "+42% cognitive test scores",
+    "bureau_stat2": "+37min extra sleep per night",
+    "bureau_stat3": "Zero eye fatigue",
+    "cri_label": "LIGHT QUALITY",
+    "cri_title": "CRI ≥ 90 — because your products deserve to be seen.",
+    "cri_body": "The Color Rendering Index (CRI) determines whether food, fabrics and materials appear natural. Under poor CRI, red meat looks grey, dishes look dull. We exclusively specify CRI ≥ 90 and R9 ≥ 80 sources for faithful color rendering."
+  },
+  "process": {
+    "label": "OUR PROCESS",
+    "title": "From idea to light — in 4 steps.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Analysis",
+        "desc": "Site visit, understanding usages, defining desired atmospheres."
+      },
+      {
+        "num": "02",
+        "title": "Study",
+        "desc": "Photometric calculations, DIALux simulations, luminaire selection."
+      },
+      {
+        "num": "03",
+        "title": "Plans",
+        "desc": "AutoCAD deliverables: placement, circuits, technical data sheets."
+      },
+      {
+        "num": "04",
+        "title": "Follow-up",
+        "desc": "Site support, on-site tuning, final project commissioning."
+      }
+    ]
+  },
+  "projects": {
+    "label": "PROJECTS",
+    "title": "Our Projects",
+    "subtitle": "Spaces transformed by light.",
+    "map_title": "Present across Algeria",
+    "map_subtitle": "Projects delivered in 42 wilayas out of 58.",
+    "stats_wilayas": "Wilayas covered",
+    "stats_projects": "Projects completed",
+    "stats_years": "Years of experience"
+  },
+  "testimonials": {
+    "label": "TESTIMONIALS",
+    "title": "What our clients say.",
+    "items": [
+      {
+        "name": "Karim B.",
+        "role": "Restaurant owner, Oran",
+        "text": "The photometric study completely transformed my restaurant's atmosphere. Customers stay longer and come back. Professional work, impeccable deliverables.",
+        "initials": "KB"
+      },
+      {
+        "name": "Leila M.",
+        "role": "Interior architect, Algiers",
+        "text": "I collaborate regularly with Volta & Lighting. Their technical mastery and attention to detail make the difference on every project. Indispensable.",
+        "initials": "LM"
+      },
+      {
+        "name": "Samir R.",
+        "role": "Business executive, Sidi Bel Abbès",
+        "text": "Complete overhaul of our office lighting. Incomparable visual comfort, more productive teams, consumption cut in half. Fast ROI.",
+        "initials": "SR"
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently asked questions.",
+    "items": [
+      {
+        "q": "How much does a lighting study cost?",
+        "a": "The price depends on the area, complexity and deliverable level. We provide a free quote within 48h after an initial discussion."
+      },
+      {
+        "q": "What are your timelines?",
+        "a": "For a standard residential project, expect 5 to 10 business days. For a commercial project (restaurant, office), 2 to 4 weeks depending on complexity."
+      },
+      {
+        "q": "Do you also supply the luminaires?",
+        "a": "Our core business is study and design. We recommend luminaires from partner brands and can assist you with purchasing."
+      },
+      {
+        "q": "Do you work across all of Algeria?",
+        "a": "Yes. We work throughout the country. For projects outside Oran, part of the work is done remotely with targeted site visits."
+      },
+      {
+        "q": "What software do you use?",
+        "a": "DIALux evo for photometric calculations and 3D simulations, AutoCAD for technical plans, Relux for certain validations."
+      }
+    ]
+  },
+  "contact": {
+    "label": "CONTACT",
+    "title": "Let's talk about your project.",
+    "subtitle": "Describe your space and your ambitions. We'll get back to you within 24h with an initial direction.",
+    "phone": "+213 665 459 724",
+    "location": "Algeria — nationwide interventions",
+    "response": "Response within 24h",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "project_type": "Project type",
+      "project_types": ["Restaurant", "Hotel", "Office", "Residential", "Other"],
+      "surface": "Approximate area",
+      "surfaces": ["< 100 m²", "100 – 300 m²", "300 – 1,000 m²", "> 1,000 m²"],
+      "message": "Your message",
+      "submit": "Send my request →",
+      "send_whatsapp": "Send via WhatsApp",
+      "success": "WhatsApp is opening... Just hit send.",
+      "whatsapp_fallback": "WhatsApp didn't open? Try again here.",
+      "wa_greeting": "Hello Volta Lighting 👋",
+      "wa_request": "I would like a quote for a lighting project.",
+      "wa_name": "Name",
+      "wa_email": "Email",
+      "wa_phone": "Phone",
+      "wa_type": "Project type",
+      "wa_surface": "Surface",
+      "wa_message": "My project",
+      "wa_not_specified": "Not specified",
+      "wa_footer": "— Sent from voltalighting.dz"
+    }
+  },
+  "footer": {
+    "tagline": "فن الإنارة في الجزائر",
+    "mission": "Premium architectural lighting in Algeria. From study to commissioning.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact",
+    "whatsapp": "Chat on WhatsApp",
+    "copyright": "© 2026 Volta & Lighting. All rights reserved.",
+    "made_in": "Crafted with precision in Oran."
+  }
+}
