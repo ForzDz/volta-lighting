@@ -2,10 +2,10 @@
 import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Phone, MapPin, Clock, CheckCircle } from 'lucide-react';
+import { Phone, MapPin, Clock, CheckCircle, Mail } from 'lucide-react';
 import SectionTitle from '../ui/SectionTitle';
 import WhatsAppIcon from '../common/WhatsAppIcon';
-import { CONTACT, waLink, telLink } from '../../lib/constants';
+import { CONTACT, waLink, telLink, mailLink } from '../../lib/constants';
 
 function TikTokIcon({ className }) {
   return (
@@ -97,6 +97,7 @@ export default function Contact() {
             <div className="space-y-5">
               {[
                 { icon: Phone, text: t('contact.phone'), href: telLink() },
+                { icon: Mail, text: CONTACT.email, href: mailLink() },
                 { icon: MapPin, text: t('contact.location') },
                 { icon: Clock, text: t('contact.response') },
               ].map(({ icon: Icon, text, href }) => (
@@ -192,7 +193,7 @@ export default function Contact() {
 
                 <div>
                   <label htmlFor="phone" className="label-premium">{f.phone}</label>
-                  <input id="phone" name="phone" type="tel" className="input-premium" placeholder="+213 6XX XXX XXX" />
+                  <input id="phone" name="phone" type="tel" pattern="[+0-9 ]{8,}" minLength={8} title="Numéro de téléphone valide (au moins 8 chiffres)" className="input-premium" placeholder="+213 6XX XXX XXX" />
                 </div>
 
                 <div>

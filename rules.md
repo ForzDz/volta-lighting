@@ -40,7 +40,7 @@
 - Always FR (default) + AR + EN
 - All user-facing strings in `src/locales/{fr,ar,en}.json`
 - Persist language choice in `localStorage` key `volta_lang`
-- When `lang === 'ar'` : `document.dir = 'rtl'`, font family switches to Tajawal
+- When `lang === 'ar'` : `document.dir = 'rtl'`, font family switches to IBM Plex Sans Arabic
 - Use logical properties : `ms-` / `me-` / `start-` / `end-` instead of `ml-` / `mr-` / `left-` / `right-`
 - Test every section in RTL before shipping
 
@@ -50,7 +50,7 @@
   - `gold-500` #F5C518 — signature accent
   - `mist-50` #FAFAFA — primary text
 - Spacing on 4 px grid (Tailwind defaults)
-- Typography : Cormorant Garamond (display), Manrope (body), Tajawal (Arabic)
+- Typography : Inter Variable (display + body, FR/EN), IBM Plex Sans Arabic (Arabic). Weight-based hierarchy, no italics.
 - Animations : Framer Motion only, signature ease `[0.22, 1, 0.36, 1]`
 - Mobile-first responsive, breakpoints sm / md / lg / xl standard Tailwind
 

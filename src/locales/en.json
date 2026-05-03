@@ -25,7 +25,7 @@
   "about": {
     "label": "ABOUT US",
     "title": "Lighting is our craft, comfort is our signature.",
-    "body": "At Volta & Lighting, we believe lighting isn't a detail — it's the soul of a space. Every project starts with a rigorous study: usage analysis, photometric calculations, color temperature and CRI selection. We deliver precise plans, realistic 3D simulations and full support through commissioning.",
+    "body": "Lighting, then lighting, then lighting! It's the key factor that reveals your design — choose its quality with care and orchestrate its distribution with precision and beauty.",
     "stats": {
       "projects_count": "250+",
       "projects_label": "Projects Completed",
@@ -41,7 +41,6 @@
     "label": "OUR SERVICES",
     "title": "Our Services",
     "subtitle": "Full expertise, from study to delivery.",
-    "learn_more": "Learn more →",
     "items": [
       {
         "id": "photometrie",
@@ -86,7 +85,7 @@
   },
   "process": {
     "label": "OUR PROCESS",
-    "title": "From idea to light — in 4 steps.",
+    "title": "From idea to visual comfort - in 4 steps.",
     "steps": [
       {
         "num": "01",
@@ -123,24 +122,26 @@
   "testimonials": {
     "label": "TESTIMONIALS",
     "title": "What our clients say.",
+    "anonymous_name": "Verified client",
+    "anonymous_role": "Authentic feedback",
     "items": [
       {
-        "name": "Karim B.",
-        "role": "Restaurant owner, Oran",
-        "text": "The photometric study completely transformed my restaurant's atmosphere. Customers stay longer and come back. Professional work, impeccable deliverables.",
-        "initials": "KB"
+        "text": "Thank you for your professionalism in designing my home's lighting. Your guidance and product selection support made a huge difference. The final result is outstanding."
       },
       {
-        "name": "Leila M.",
-        "role": "Interior architect, Algiers",
-        "text": "I collaborate regularly with Volta & Lighting. Their technical mastery and attention to detail make the difference on every project. Indispensable.",
-        "initials": "LM"
+        "text": "We truly appreciated your seriousness, ethics, and technical level. You clearly master your field, and the final result exceeded our expectations."
       },
       {
-        "name": "Samir R.",
-        "role": "Business executive, Sidi Bel Abbès",
-        "text": "Complete overhaul of our office lighting. Incomparable visual comfort, more productive teams, consumption cut in half. Fast ROI.",
-        "initials": "SR"
+        "text": "A huge thank you for the lighting plan of our house in Algiers. Every space is beautifully enhanced with a design that is modern, aesthetic, and highly functional."
+      },
+      {
+        "text": "Excellent service, high execution quality, and strong listening throughout the project. The outcome is even better than we expected, and we fully recommend it."
+      },
+      {
+        "text": "The result is beautiful. Clean, precise, and professional work from start to finish. Thank you for your availability and follow-up."
+      },
+      {
+        "text": "Top-level work: serious, well mastered, and consistent. As soon as we saw the final result, we knew we had made the right choice."
       }
     ]
   },
@@ -149,24 +150,24 @@
     "title": "Frequently asked questions.",
     "items": [
       {
-        "q": "How much does a lighting study cost?",
-        "a": "The price depends on the area, complexity and deliverable level. We provide a free quote within 48h after an initial discussion."
+        "q": "How much does lighting design cost?",
+        "a": "The price depends on the type of project (area, complexity, and level of deliverables)."
       },
       {
-        "q": "What are your timelines?",
-        "a": "For a standard residential project, expect 5 to 10 business days. For a commercial project (restaurant, office), 2 to 4 weeks depending on complexity."
+        "q": "What are your deadlines?",
+        "a": "It depends on the project (usually 5 to 10 days)."
       },
       {
-        "q": "Do you also supply the luminaires?",
-        "a": "Our core business is study and design. We recommend luminaires from partner brands and can assist you with purchasing."
+        "q": "Do you provide lighting equipment?",
+        "a": "Our core business is study and design. We recommend luminaires from partner brands and can assist you in purchasing."
       },
       {
-        "q": "Do you work across all of Algeria?",
-        "a": "Yes. We work throughout the country. For projects outside Oran, part of the work is done remotely with targeted site visits."
+        "q": "Do you work all over Algeria?",
+        "a": "Yes. We work across the national territory. Remote work is also possible."
       },
       {
-        "q": "What software do you use?",
-        "a": "DIALux evo for photometric calculations and 3D simulations, AutoCAD for technical plans, Relux for certain validations."
+        "q": "Do you offer lighting design services outside Algeria?",
+        "a": "Yes, online."
       }
     ]
   },
@@ -182,9 +183,20 @@
       "email": "Email",
       "phone": "Phone",
       "project_type": "Project type",
-      "project_types": ["Restaurant", "Hotel", "Office", "Residential", "Other"],
+      "project_types": [
+        "Restaurant",
+        "Hotel",
+        "Office",
+        "Residential",
+        "Other"
+      ],
       "surface": "Approximate area",
-      "surfaces": ["< 100 m²", "100 – 300 m²", "300 – 1,000 m²", "> 1,000 m²"],
+      "surfaces": [
+        "< 100 m²",
+        "100 – 300 m²",
+        "300 – 1,000 m²",
+        "> 1,000 m²"
+      ],
       "message": "Your message",
       "submit": "Send my request →",
       "send_whatsapp": "Send via WhatsApp",
@@ -199,7 +211,7 @@
       "wa_surface": "Surface",
       "wa_message": "My project",
       "wa_not_specified": "Not specified",
-      "wa_footer": "— Sent from voltalighting.dz"
+      "wa_footer": "— Sent from lighting-dz.com"
     }
   },
   "footer": {

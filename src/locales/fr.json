@@ -25,7 +25,7 @@
   "about": {
     "label": "À PROPOS",
     "title": "La lumière est notre métier, le confort est notre signature.",
-    "body": "Chez Volta & Lighting, nous croyons que l'éclairage n'est pas un détail — c'est l'âme d'un espace. Chaque projet commence par une étude rigoureuse : analyse des usages, calculs photométriques, choix des températures de couleur et des indices de rendu chromatique. Nous livrons des plans précis, des simulations 3D réalistes et un accompagnement complet jusqu'à la mise en service.",
+    "body": "L'éclairage, encore l'éclairage, toujours l'éclairage ! C'est le facteur clé qui révèle votre design — soignez le choix de sa qualité et orchestrez sa distribution avec rigueur et beauté.",
     "stats": {
       "projects_count": "250+",
       "projects_label": "Projets réalisés",
@@ -41,7 +41,6 @@
     "label": "NOS SERVICES",
     "title": "Nos services",
     "subtitle": "Une expertise complète, de l'étude à la livraison.",
-    "learn_more": "En savoir plus →",
     "items": [
       {
         "id": "photometrie",
@@ -86,7 +85,7 @@
   },
   "process": {
     "label": "NOTRE PROCESS",
-    "title": "De l'idée à la lumière — en 4 étapes.",
+    "title": "De l'idée au confort visuel - en 4 étapes.",
     "steps": [
       {
         "num": "01",
@@ -123,24 +122,26 @@
   "testimonials": {
     "label": "TÉMOIGNAGES",
     "title": "Ce que disent nos clients.",
+    "anonymous_name": "Client vérifié",
+    "anonymous_role": "Avis authentique",
     "items": [
       {
-        "name": "Karim B.",
-        "role": "Restaurateur, Oran",
-        "text": "L'étude photométrique a complètement changé l'ambiance de mon restaurant. Les clients restent plus longtemps et reviennent. Travail professionnel, livrables impeccables.",
-        "initials": "KB"
+        "text": "Franchement merci pour ton professionnalisme dans le design d'éclairage de ma maison. Tes conseils et ton accompagnement dans le choix des produits ont tout changé. Résultat impeccable."
       },
       {
-        "name": "Leila M.",
-        "role": "Architecte d'intérieur, Alger",
-        "text": "Je collabore régulièrement avec Volta & Lighting. Leur maîtrise technique et leur sens du détail font la différence sur chaque projet. Indispensables.",
-        "initials": "LM"
+        "text": "Nous avons apprécié ton sérieux, ton éthique et ton niveau technique. Tu maîtrises parfaitement ton domaine et le résultat final était au-dessus de nos attentes."
       },
       {
-        "name": "Samir R.",
-        "role": "Dirigeant d'entreprise, Sidi Bel Abbès",
-        "text": "Refonte complète de l'éclairage de nos bureaux. Confort visuel incomparable, équipes plus productives, et consommation divisée par deux. ROI rapide.",
-        "initials": "SR"
+        "text": "Un immense merci pour le plan lumière de notre maison à Alger. Chaque espace est magnifiquement mis en valeur, avec une conception à la fois moderne, esthétique et fonctionnelle."
+      },
+      {
+        "text": "Service excellent, grande qualité d'exécution et très bonne écoute. Le résultat est meilleur que ce qu'on imaginait, nous recommanderons sans hésiter."
+      },
+      {
+        "text": "Le résultat est magnifique. Travail propre, précis et professionnel du début à la fin. Merci pour ta disponibilité et ton suivi."
+      },
+      {
+        "text": "Travail de très haut niveau, maîtrisé et sérieux. Dès qu'on a vu le rendu final, on a su qu'on avait fait le bon choix. Vraiment top."
       }
     ]
   },
@@ -149,24 +150,24 @@
     "title": "Questions fréquentes.",
     "items": [
       {
-        "q": "Combien coûte une étude d'éclairage ?",
-        "a": "Le tarif dépend de la surface, de la complexité et du niveau de livrables. Nous proposons un devis gratuit sous 48h après un premier échange."
+        "q": "Combien coûte la conception d'éclairage ?",
+        "a": "Le prix dépend du type de projet (surface, complexité et niveau de livrables)."
       },
       {
         "q": "Quels sont vos délais ?",
-        "a": "Pour un projet résidentiel standard, comptez 5 à 10 jours ouvrés. Pour un projet commercial (restaurant, bureau), 2 à 4 semaines selon la complexité."
+        "a": "Cela dépend du projet (généralement de 5 à 10 jours)."
       },
       {
-        "q": "Fournissez-vous aussi les luminaires ?",
+        "q": "Fournissez-vous les luminaires ?",
         "a": "Notre cœur de métier est l'étude et la conception. Nous recommandons des luminaires de marques partenaires et pouvons vous accompagner dans l'achat."
       },
       {
         "q": "Intervenez-vous partout en Algérie ?",
-        "a": "Oui. Nous intervenons sur l'ensemble du territoire. Pour les projets hors Oran, une partie du travail se fait à distance avec visites ciblées."
+        "a": "Oui. Nous intervenons sur l'ensemble du territoire national. Le travail à distance est également possible."
       },
       {
-        "q": "Quels logiciels utilisez-vous ?",
-        "a": "DIALux evo pour les calculs photométriques et simulations 3D, AutoCAD pour les plans techniques, Relux pour certaines validations."
+        "q": "Proposez-vous le service de conception d'éclairage hors de l'Algérie ?",
+        "a": "Oui, en ligne."
       }
     ]
   },
@@ -210,7 +211,7 @@
       "wa_surface": "Surface",
       "wa_message": "Mon projet",
       "wa_not_specified": "Non précisé",
-      "wa_footer": "— Envoyé depuis voltalighting.dz"
+      "wa_footer": "— Envoyé depuis lighting-dz.com"
     }
   },
   "footer": {

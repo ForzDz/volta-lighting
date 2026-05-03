@@ -1,9 +1,8 @@
 // --- FOOTER ---
 import { useTranslation } from 'react-i18next';
-import { Phone, MapPin } from 'lucide-react';
-import logoComplet from '../../assets/images/logo-volta-complet.png';
+import { Phone, MapPin, Mail } from 'lucide-react';
 import WhatsAppIcon from '../common/WhatsAppIcon';
-import { CONTACT, waLink, telLink } from '../../lib/constants';
+import { CONTACT, waLink, telLink, mailLink } from '../../lib/constants';
 
 function TikTokIcon({ className }) {
   return (
@@ -51,7 +50,7 @@ export default function Footer() {
           <div className="space-y-5">
             <a href="#" className="inline-block" aria-label="Volta & Lighting — accueil">
               <img
-                src={logoComplet}
+                src="/logo-volta-complet.png"
                 alt="Volta & Lighting"
                 className="h-24 w-auto object-contain"
               />
@@ -89,6 +88,12 @@ export default function Footer() {
                   <MapPin className="w-4 h-4 text-gold-500 shrink-0" />
                   {t('contact.location')}
                 </span>
+              </li>
+              <li>
+                <a href={mailLink()} className="flex items-center gap-3 text-sm text-mist-400 hover:text-mist-50 transition-colors group">
+                  <Mail className="w-4 h-4 text-gold-500 shrink-0" />
+                  {CONTACT.email}
+                </a>
               </li>
             </ul>
 

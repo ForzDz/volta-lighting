@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import SectionTitle from '../ui/SectionTitle';
 import AnimatedCounter from '../ui/AnimatedCounter';
-import mockupDialux from '../../assets/images/mockup-dialux-ecran.webp';
+import mockupDialux from '../../assets/images/mockup-dialux-transparent.webp';
 
 const ease = [0.22, 1, 0.36, 1];
 
@@ -31,10 +31,7 @@ export default function About() {
 
           {/* Left */}
           <div>
-            <SectionTitle
-              label={t('about.label')}
-              title={t('about.title')}
-            />
+            <SectionTitle title={t('about.title')} />
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}

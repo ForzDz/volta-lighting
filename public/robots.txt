@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://voltalighting.dz/sitemap.xml
+Sitemap: https://lighting-dz.com/sitemap.xml

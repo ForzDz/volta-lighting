@@ -5,21 +5,21 @@ import { motion } from 'framer-motion';
 import { Calculator, PenTool, Box, Lightbulb, ArrowUpRight } from 'lucide-react';
 import SectionTitle from '../ui/SectionTitle';
 
-import imgPhotometrie from '../../assets/images/etude-photometrique-bureau.webp';
-import imgAutocad from '../../assets/images/plan-autocad-blueprint.webp';
-import imgSimulation from '../../assets/images/simulation-3d-restaurant.webp';
-import imgMockup from '../../assets/images/mockup-dialux-ecran.webp';
+import imgPhotometrie from '../../assets/images/etude-photometrique-hd.webp';
+import imgAutocad from '../../assets/images/plan-autocad-blueprint-hd.webp';
+import imgSimulation from '../../assets/images/simulation-3d-restaurant-hd.webp';
+import imgConsultation from '../../assets/images/online-consultation.webp';
 
 const ICONS = [Calculator, PenTool, Box, Lightbulb];
 const MEDIA = [
   { src: imgPhotometrie, alt: "Étude photométrique d'un plateau de bureaux avec cartographie des niveaux lux" },
   { src: imgAutocad, alt: "Plan d'éclairage AutoCAD blueprint d'un espace professionnel" },
   { src: imgSimulation, alt: "Simulation 3D DIALux d'un restaurant avec calcul d'isolux" },
-  { src: imgMockup, alt: "Interface du logiciel DIALux affichant une simulation 3D d'éclairage" },
+  { src: imgConsultation, alt: "Consultation en ligne via WhatsApp, Zoom et Teams" },
 ];
 const ease = [0.22, 1, 0.36, 1];
 
-function ServiceCard({ service, index, Icon, media, learnMore }) {
+function ServiceCard({ service, index, Icon, media }) {
   const ref = useRef(null);
   const [pos, setPos] = useState({ x: 50, y: 50 });
 
@@ -90,20 +90,9 @@ function ServiceCard({ service, index, Icon, media, learnMore }) {
           <h3 className="font-display font-light text-[1.65rem] lg:text-[1.875rem] leading-[1.1] text-mist-50">
             {service.title}
           </h3>
-          <p className="text-mist-400 leading-relaxed text-[0.95rem] max-w-md">
-            {service.description}
-          </p>
         </div>
 
-        {/* Learn more */}
-        <div className="relative mt-8 flex items-center gap-2 text-gold-500 text-xs font-semibold uppercase tracking-[0.2em]">
-          <span>{learnMore}</span>
-          <ArrowUpRight
-            className="h-4 w-4 transition-transform duration-300
-                       group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-            aria-hidden="true"
-          />
-        </div>
+
 
         {/* Bottom accent */}
         <span
@@ -118,7 +107,6 @@ function ServiceCard({ service, index, Icon, media, learnMore }) {
 export default function Services() {
   const { t } = useTranslation();
   const items = t('services.items', { returnObjects: true });
-  const learnMore = t('services.learn_more');
 
   return (
     <section id="services" className="relative section-padding bg-ink-950 overflow-hidden">
@@ -144,7 +132,6 @@ export default function Services() {
               index={i}
               Icon={ICONS[i]}
               media={MEDIA[i]}
-              learnMore={learnMore}
             />
           ))}
         </div>

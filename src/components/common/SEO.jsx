@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
-const SITE_URL = 'https://voltalighting.dz';
+const SITE_URL = 'https://lighting-dz.com';
 const OG_IMAGE = `${SITE_URL}/logo-volta-complet.png`;
 
 const META = {

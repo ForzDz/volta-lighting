@@ -54,8 +54,8 @@ export default function Hero() {
                 }}
               >
                 {t('hero.title_highlight')}
-              </span>{' '}
-              {t('hero.title_2')}
+              </span>
+              {t('hero.title_2') && <>{' '}{t('hero.title_2')}</>}
             </motion.h1>
 
             {/* Subtitle */}

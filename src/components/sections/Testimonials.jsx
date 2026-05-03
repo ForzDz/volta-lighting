@@ -1,8 +1,26 @@
 // --- TESTIMONIALS SECTION ---
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Star } from 'lucide-react';
+import { Star, User } from 'lucide-react';
 import SectionTitle from '../ui/SectionTitle';
+import LogoCloud from '../ui/LogoCloud';
+
+const testimonialLogoModules = import.meta.glob(
+  '../../assets/TÉMOIGNAGES/*.{png,PNG,jpg,JPG,jpeg,JPEG,webp,WEBP,svg,SVG}',
+  {
+  eager: true,
+  import: 'default',
+  }
+);
+
+const testimonialLogos = Object.entries(testimonialLogoModules)
+  .map(([path, src]) => {
+    const fileName = path.split('/').pop() || '';
+    const cleanName = fileName.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim();
+    return { src, alt: cleanName || 'Client logo' };
+  })
+  .sort((a, b) => a.alt.localeCompare(b.alt));
+const marqueeLogos = [...testimonialLogos, ...testimonialLogos, ...testimonialLogos];
 
 function Stars() {
   return (
@@ -27,10 +45,16 @@ export default function Testimonials() {
           center
         />
 
+        <div className="mb-8">
+          <div className="h-px w-full bg-[linear-gradient(to_right,transparent,rgba(217,164,65,0.45),transparent)]" />
+          <LogoCloud logos={marqueeLogos} className="my-5" />
+          <div className="h-px w-full bg-[linear-gradient(to_right,transparent,rgba(217,164,65,0.45),transparent)]" />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((item, i) => (
             <motion.article
-              key={item.name}
+              key={`testimonial-${i}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -46,11 +70,13 @@ export default function Testimonials() {
               <div className="flex items-center gap-4">
                 {/* Avatar */}
                 <div className="w-10 h-10 rounded-full bg-gold-500/20 border border-gold-500/40 flex items-center justify-center shrink-0">
-                  <span className="text-gold-500 text-xs font-bold">{item.initials}</span>
+                  <User className="w-4 h-4 text-gold-500" />
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-mist-100">{item.name}</div>
-                  <div className="text-xs text-mist-500">{item.role}</div>
+                  <div className="text-sm font-semibold text-mist-100">
+                    {t('testimonials.anonymous_name')}
+                  </div>
+                  <div className="text-xs text-mist-500">{t('testimonials.anonymous_role')}</div>
                 </div>
               </div>
             </motion.article>
