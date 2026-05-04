@@ -6,23 +6,23 @@ const OG_IMAGE = `${SITE_URL}/logo-volta-complet.png`;
 
 const META = {
   fr: {
-    title: "Volta & Lighting — Conception d'éclairage en Algérie",
+    title: 'lighting-dz',
     description: "Études photométriques, plans d'éclairage et simulations 3D sur-mesure en Algérie. Restaurants, hôtels, bureaux et résidences. Devis gratuit.",
-    og_title: "Volta & Lighting — فن الإنارة في الجزائر",
+    og_title: 'lighting-dz',
     og_description: "L'éclairage qui transforme vos espaces. Conception et design d'éclairage premium en Algérie.",
     locale: 'fr_DZ',
   },
   ar: {
-    title: 'فولتا ولايتينج — تصميم الإضاءة في الجزائر',
+    title: 'lighting-dz',
     description: 'دراسات ضوئية، مخططات إضاءة وتمثيلات ثلاثية الأبعاد مصممة خصيصاً في الجزائر. عرض أسعار مجاني.',
-    og_title: 'فولتا ولايتينج — فن الإنارة في الجزائر',
+    og_title: 'lighting-dz',
     og_description: 'الإضاءة التي تحوّل فضاءاتكم. تصميم إضاءة معمارية راقية في الجزائر.',
     locale: 'ar_DZ',
   },
   en: {
-    title: 'Volta & Lighting — Lighting Design in Algeria',
+    title: 'lighting-dz',
     description: 'Custom photometric studies, lighting plans and 3D simulations in Algeria. Restaurants, hotels, offices and residences. Free quote.',
-    og_title: 'Volta & Lighting — فن الإنارة في الجزائر',
+    og_title: 'lighting-dz',
     og_description: 'The lighting that transforms your spaces. Premium lighting design in Algeria.',
     locale: 'en_US',
   },
@@ -88,11 +88,11 @@ export default function SEO() {
       <link rel="alternate" hrefLang="x-default" href={SITE_URL + '/'} />
 
       {/* Open Graph */}
-      <meta property="og:site_name" content="Volta & Lighting" />
+      <meta property="og:site_name" content="lighting-dz" />
       <meta property="og:title" content={m.og_title} />
       <meta property="og:description" content={m.og_description} />
       <meta property="og:image" content={OG_IMAGE} />
-      <meta property="og:image:alt" content="Volta & Lighting — Conception d'éclairage en Algérie" />
+      <meta property="og:image:alt" content="lighting-dz" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={SITE_URL + '/'} />
       <meta property="og:locale" content={m.locale} />
